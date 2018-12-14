@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByPassOdoo", "ByPassOdoo\ByPassOdoo.csproj", "{EF125511-DF4C-4D00-BCA7-6C16FD7B278B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByPassOdooConsole", "ByPassOdooConsole\ByPassOdooConsole.csproj", "{880A7960-01A8-4315-925C-59A5A375BB37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF125511-DF4C-4D00-BCA7-6C16FD7B278B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF125511-DF4C-4D00-BCA7-6C16FD7B278B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF125511-DF4C-4D00-BCA7-6C16FD7B278B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF125511-DF4C-4D00-BCA7-6C16FD7B278B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880A7960-01A8-4315-925C-59A5A375BB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880A7960-01A8-4315-925C-59A5A375BB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880A7960-01A8-4315-925C-59A5A375BB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880A7960-01A8-4315-925C-59A5A375BB37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8503E812-9271-48D3-9A11-E5CB7E07AB4E}
+	EndGlobalSection
+EndGlobal
