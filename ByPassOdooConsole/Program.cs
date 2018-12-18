@@ -5,6 +5,7 @@ using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using ByPassOdooConsole.DAL;
 
 namespace ByPassOdooConsole
 {
@@ -12,13 +13,17 @@ namespace ByPassOdooConsole
     {
         static void Main(string[] args)
         {
-            string username = "quocltm@blockchainlabs.asia";
-            string password = "123password";
-            var odooService = new ByPassOdooService();
-            odooService.Login(username, password);
-            odooService.CheckIn();
+            var accounts = DAL.DAL.GetAvailableAccounts();
+            Console.WriteLine("Available accounts");
+            foreach(var acc in accounts)
+            {
+                Console.WriteLine($"Id: {acc.Id} Username: {acc.Username} Password: {acc.Password}");
+            }
+            Console.Read();
         }
     }
+
+    
 
     class ByPassOdooService
     {
